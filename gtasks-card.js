@@ -43,9 +43,9 @@ customElements.whenDefined("card-tools").then(() => {
 
     formatDueDate(dueDate, dueInDays, dateFormat) {
       if (dueInDays < 0)
-        return "Overdue";
+        return "Verlopen";
       else if (dueInDays == 0)
-        return "Today";
+        return "Vandaag";
       else {
         if (dateFormat == "MDY") {
           var splitDate = dueDate.split(/[- :T]/)
