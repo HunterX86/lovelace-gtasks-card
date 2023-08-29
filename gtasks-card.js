@@ -100,7 +100,7 @@ customElements.whenDefined("card-tools").then(() => {
                   </div>
                   <div class="secondary">
                     <span class="${child.due_date ? this.checkDueClass(this.calculateDueDate(child.due_date)) : ""}">
-                      ${child.due_date ? "Due: " + this.formatDueDate(child.due_date, this.calculateDueDate(child.due_date), this.date_format): ""}
+                      ${child.due_date ? /*"Due: "*/ + this.formatDueDate(child.due_date, this.calculateDueDate(child.due_date), this.date_format): ""}
                     </span>
                   </div>
                 </div>
