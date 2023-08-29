@@ -118,7 +118,7 @@ customElements.whenDefined("card-tools").then(() => {
               </div>
               `)}
               `)}` : cardTools.LitHtml`
-              <div class="info flex">- No tasks...</div>
+              <div class="info flex">- Geen taken...</div>
               `}
             </div>
             ${this.notShowing.length > 0 ? cardTools.LitHtml`
